@@ -15,30 +15,33 @@ Complementar los métodos de detección de outliers para mejorar la calidad de l
 
 Proponer un manejo de los datos faltantes y la estructuración del dataset para futuros análisis.
 
-🗂️ Estructura del repositorio:
-📁 nombre-del-repositorio/ │
-├── 📁 articulo/
-│ ├── informe_1_nombre_apellidos.pdf
-│ ├── informe_XX_nombre_apellidos.pdf
-│ └── informe_final_nombre_apellidos.pdf
-│
-├── 📁 proyecto_aula/
-│ ├── py_nombre_apellidos_01_intro.ipynb
-│ ├── py_nombre_apellidos_02_limpieza.ipynb
-│ └── py_nombre_apellidos_XX_nombre.ipynb
-│
-├── 📁 sesiones_practicas/
-│ ├── sc_1_nombre_apellidos.ipynb
-│ ├── sc_2_nombre_apellidos.ipynb
-│ └── sc_XX_nombre_apellidos.ipynb
-│
-├── 📁 datos/
-│ └── dataset_procesado.csv
-│
-├── 📁 recursos/
-│ └── referencias_bibliograficas.pdf
-│
-└── README.md
+🗂️ **Estructura del repositorio**
+
+📁 nombre-del-repositorio/  
+│  
+├── 📁 articulo/  
+│   ├── informe_1_nombre_apellidos.pdf  
+│   ├── informe_XX_nombre_apellidos.pdf  
+│   └── informe_final_nombre_apellidos.pdf  
+│  
+├── 📁 proyecto_aula/  
+│   ├── py_nombre_apellidos_01_intro.ipynb  
+│   ├── py_nombre_apellidos_02_limpieza.ipynb  
+│   └── py_nombre_apellidos_XX_nombre.ipynb  
+│  
+├── 📁 sesiones_practicas/  
+│   ├── sc_1_nombre_apellidos.ipynb  
+│   ├── sc_2_nombre_apellidos.ipynb  
+│   └── sc_XX_nombre_apellidos.ipynb  
+│  
+├── 📁 datos/  
+│   └── dataset_procesado.csv  
+│  
+├── 📁 recursos/  
+│   └── referencias_bibliograficas.pdf  
+│  
+└── README.md  
+
 
 ## 📊 Descripción de la base de datos
 
@@ -87,3 +90,4 @@ Este proyecto utiliza la base de datos MIMIC-III Clinical Database, disponible �
 ### ⚠️ Nota: Debido a su gran tamaño (más de 20 GB), el dataset completo no se incluye en este repositorio.
 
 En su lugar, proporcionamos un archivo reducido de ejemplo en la carpeta:
+data

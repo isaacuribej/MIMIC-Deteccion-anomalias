@@ -90,4 +90,4 @@ Este proyecto utiliza la base de datos MIMIC-III Clinical Database, disponible �
 ### ⚠️ Nota: Debido a su gran tamaño (más de 20 GB), el dataset completo no se incluye en este repositorio.
 
 En su lugar, proporcionamos un archivo reducido de ejemplo en la carpeta:
-data
+data se encuentra df_merged_acotado, por lo que una de las celdas no marcara que tiene 9 millones de registros sino que si se corre apareceran 100k reducido a 100k, por lo quen o debe haber preocupación

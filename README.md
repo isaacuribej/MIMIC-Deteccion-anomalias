@@ -62,15 +62,9 @@ La base de datos utilizada es MIMIC-III, que contiene 9,028,427 registros y 15 c
 
 | Condición                         | Basada en columna(s)                            | Regla simplificada               |
 | --------------------------------- | ----------------------------------------------- | -------------------------------- |
-| **Diabetes tipo 2 (sospecha)**    | `GLUCOSE_VALUE`                                 | ≥ 200 mg/dL en cualquier momento |
-| **Hipoglucemia**                  | `GLUCOSE_VALUE`                                 | < 70 mg/dL                       |
-| **Apnea respiratoria (sospecha)** | `OXYGEN_SAT_VALUE`                              | ≤ 88% en reposo                  |
-| **Hipertensión**                  | `BLOOD_SYSTOLIC_VALUE`, `BLOOD_DIASTOLIC_VALUE` | ≥ 140/90 mmHg                    |
-| **Hipotensión**                   | `BLOOD_SYSTOLIC_VALUE`, `BLOOD_DIASTOLIC_VALUE` | < 90 / 60 mmHg                   |
 | **Taquicardia**                   | `HEART_RATE_VALUE`                              | > 100 bpm                        |
 | **Bradicardia**                   | `HEART_RATE_VALUE`                              | < 60 bpm                         |
-| **Fiebre**                        | `TEMPERATURE_VALUE`                             | ≥ 38 °C (100.4 °F)               |
-| **Hipotermia**                    | `TEMPERATURE_VALUE`                             | < 35 °C (95 °F)                  |
+
 
 
 ## ▶️ Cómo ejecutar el proyecto
@@ -91,3 +85,5 @@ Este proyecto utiliza la base de datos MIMIC-III Clinical Database, disponible �
 
 En su lugar, proporcionamos un archivo reducido de ejemplo en la carpeta:
 data se encuentra df_merged_acotado, por lo que una de las celdas no marcara que tiene 9 millones de registros sino que si se corre apareceran 100k reducido a 100k, por lo quen o debe haber preocupación
+
+**Importante:** Debes cambiar la ruta de la segunda celda y direccionarla a la carpeta de datos y la direccion donde hagas copia del repositorio con el nombre del dataset proporcionado anteriormente.
